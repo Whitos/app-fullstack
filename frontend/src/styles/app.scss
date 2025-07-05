@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  padding: 2rem;
+}
+
+.todo-list {
+  background: white;
+  width: 200px;
+  border: 5px solid red;
+}
+
+.todo-item {
+  background: white;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+
+  &.done {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+}
